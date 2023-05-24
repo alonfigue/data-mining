@@ -1,0 +1,17 @@
+Recolectar datos utilizando los siguientes requerimientos:
+
+- Cliente: nombre, apellido, correo, domicilio
+- Producto: nombre, costo, elaborado_por, existencia
+- Recibo: fecha, dia_de_la_semana, cliente, hora, producto, cantidad, modo_pago
+
+Realizar 600 registros
+
+Por lo que, se procede a
+Crear una BDD llamada Data_Mining en donde se crearán
+las siguientes tablas con las siguientes columnas:
+
+Cliente: id_cliente, nombre, apellido, correo, domicilio
+
+Producto: id_producto, nombre, costo, elaborado_por, existencia
+
+Recibo: id_recibo, id_cliente FK Cliente, id_producto FK Producto, fecha, dia_de_la_semana, hora, cantidad, modo_pago
