@@ -1,3 +1,6 @@
+Create a DB with three tables "clientes", "productos" and "recibos".
+
+
 Recolectar datos utilizando los siguientes requerimientos:
 
 - Cliente: nombre, apellido, correo, domicilio
@@ -10,8 +13,8 @@ Por lo que, se procede a
 Crear una BDD llamada Data_Mining en donde se crearán
 las siguientes tablas con las siguientes columnas:
 
-Cliente: id_cliente, nombre, apellido, correo, domicilio
+Cliente: id_cliente, nombre_cliente, apellido, correo, domicilio
 
-Producto: id_producto, nombre, costo, elaborado_por, existencia
+Producto: id_producto, nombre_producto , costo, elaborado_por, existencia
 
-Recibo: id_recibo, id_cliente FK Cliente, id_producto FK Producto, fecha, dia_de_la_semana, hora, cantidad, modo_pago
+Recibo: id_recibo, id_cliente FK Cliente, id_producto FK Producto, fecha,  hora, dia_de_la_semana, cantidad, modo_pago
